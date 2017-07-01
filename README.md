@@ -7,12 +7,12 @@ for database_c you need [mysqloo](https://facepunch.com/showthread.php?t=1515853
 
 
 # <i class="icon-file"></i> Developer documentation
--------------
+
 <i class="icon-th-list">Serverside functions:
 >**corequery(querystr, callback)**<br>
 **example:**<br>
 corequery("SELECT * FROM table WHERE id = '1' ", function(data)<br>
-  PrintTable(data[1])<br>
+&nbsp;PrintTable(data[1])<br>
 end)<br>
 
 ----------
